@@ -66,12 +66,19 @@ class Config(object):
 
 
 if __name__ == '__main__':
+    #Se crea la instancia de Config pasando el archivo de configuracion ini
     configuracion = Config("./conf/androidsms.conf")
-    print(configuracion.show_sections())
-    print(configuracion.show_item_section("server"))
-    print(configuracion.show_value_item("server","ip"))
-    print(configuracion.cnffile)
+    #Se muestra las secciones
+    print("Secciones: {0} ".format(configuracion.show_sections()))
+    #Se muestra los items de la seccion server
+    print("Items de la seccion server: {0} ".format(configuracion.show_item_section("server")))
+    #Se muestra la ip de la seccion server
+    print("IP: {0}".format(configuracion.show_value_item("server","ip")))
+    #Se muestra el archivo de configuracion
+    print("Archivo de configuracion: {0}".format(configuracion.cnffile))
+    #Se cambia en caliente de archivo de configuracion
     configuracion.cnffile = "./conf/python_android_sms.conf"
-    print(configuracion.cnffile)
-    print(configuracion.show_sections())
+    print("Archivo de configuracion: {0}".format(configuracion.cnffile))
+    #Se muestra las secciones del nuevo archivo de configuracion
+    print("Secciones: {0}".format(configuracion.show_sections()))
 
