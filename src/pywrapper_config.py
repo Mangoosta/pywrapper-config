@@ -11,7 +11,7 @@ Autor: Ernesto Crespo
 Correo: ecrespo@gmail.com
 Licencia: GPL Version 3
 Copyright: Copyright (C) 2016 Ernesto Nadir Crespo Avila <ecrespo@gmail.com> 
-Version: 0.2
+Version: 0.3
 
 """
 
