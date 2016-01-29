@@ -5,11 +5,11 @@
 from ConfigParser import ConfigParser
 
 """
-Nombre: pywrapper_config
-Descripcion: Wrapper to ConfigParser python module
-Autor: Ernesto Crespo
-Correo: ecrespo@gmail.com
-Licencia: GPL Version 3
+Name: pywrapper_config
+Description: Wrapper to ConfigParser python module
+Author: Ernesto Crespo
+Email: ecrespo@gmail.com
+License: GPLv3
 Copyright: Copyright (C) 2016 Ernesto Nadir Crespo Avila <ecrespo@gmail.com> 
 Version: 0.3
 
