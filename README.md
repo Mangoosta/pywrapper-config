@@ -1,5 +1,29 @@
 # pywrapper-config
-Wrapper to ConfigParser  python module
+Wrapper to ConfigParser  
+
+tests.conf file:
+```
+[time]
+pidfile_timeout = 5
+
+[server]
+ip = "127.0.0.1"
+port = "8080"
+```
+
+tests2.conf file:
+```
+[time]
+sleep = 3
+
+[paths]
+null = /dev/null
+stdout = /dev/tty
+stderr = /dev/tty
+
+[conex]
+port = 9080
+```
 
 
 
@@ -8,7 +32,7 @@ How to use pywraper-config:
 import pywrapper_config
 
 
-config = pywrapper_config.Config("./conf/tests.conf")
+config = pywrapper_config.Config("./tests.conf")
 #Show sections 
 print("Sections: {0} ".format(config.show_sections()))
 #Show server section
