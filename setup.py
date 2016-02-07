@@ -3,7 +3,8 @@
 from distutils.core import setup
 
 
-data_files = [('share/pywrapper_config',['README.md','LICENSE'])]
+
+data_files = [('share/pywrapper_config',['pywrapper_config.py','README.md','LICENSE'])]
 
 
 setup(name='pywrapper_config',
