@@ -1,2 +1,1 @@
-include conf/*.conf
-
+include conf-examples/*.conf LICENSE README.md
