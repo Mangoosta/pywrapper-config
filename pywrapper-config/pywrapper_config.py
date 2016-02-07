@@ -15,7 +15,7 @@ Version: 0.3
 
 """
 
-#Clase config
+
 class Config(object):
     """Config Class to manipulate a config file"""
 
