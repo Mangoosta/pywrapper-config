@@ -6,7 +6,7 @@ from ConfigParser import ConfigParser
 
 """
 Name: pywrapper_config
-Description: Wrapper to ConfigParser python module
+Description: Wrapper to ConfigParser
 Author: Ernesto Crespo
 Email: ecrespo@gmail.com
 License: GPLv3
