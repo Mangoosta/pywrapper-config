@@ -11,7 +11,7 @@ Author: Ernesto Crespo
 Email: ecrespo@gmail.com
 License: GPLv3
 Copyright: Copyright (C) 2016 Ernesto Nadir Crespo Avila <ecrespo@gmail.com> 
-Version: 0.3
+Version: 0.3.2
 
 """
 
@@ -62,5 +62,19 @@ class Config(object):
     def write(self):
         """Write config file"""
         self._config.write(open(self._cnffile,'w'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

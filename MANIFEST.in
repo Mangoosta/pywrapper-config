@@ -1,1 +1,2 @@
-include conf-examples/*.conf LICENSE README.md
+include conf-examples/*.conf LICENSE README.md CHANGELOG
+
