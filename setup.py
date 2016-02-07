@@ -2,11 +2,20 @@
 
 from distutils.core import setup
 
-setup(name='pywrapper-config',
+
+data_files = [('share/pywrapper_config',['README.md','LICENSE'])]
+
+
+setup(name='pywrapper_config',
       version='0.3',
-      description='Python Distribution Utilities',
+      description='Wrapper to ConfigParser',
       author='Ernesto Crespo',
       author_email='ecrespo@gmail.com',
       url='https://github.com/ecrespo/pywrapper-config',
-      packages=['pywrapper-config','pywrapper-config.conf'],
+      packages=['pywrapper_config'],
+      license = "GPLv3",
+      platforms=['i386','AMD64'],
+      py_modules = ['pywrapper_config'],
+      data_files =data_files,
+      requires = ['ConfigParser'],
      )
