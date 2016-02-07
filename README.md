@@ -3,9 +3,8 @@ Wrapper to ConfigParser  python module
 
 
 
-Example how to use pywraper-config:
-´´´
-
+How to use pywraper-config:
+```
 import pywrapper_config
 
 
@@ -24,5 +23,4 @@ print("Config file: {0}".format(config.cnffile))
 #Show sections from new config file 
 print("Secciones: {0}".format(config.show_sections()))
 
-´´´
-
+```
