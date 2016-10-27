@@ -3,4 +3,4 @@ pywrapper_config:
 - 0.3.0 New release:
 - 0.3.1 Add Changelog file
 - 0.3.2 Change from package to pymodule
-
+- 0.3.3 Add JSON output
